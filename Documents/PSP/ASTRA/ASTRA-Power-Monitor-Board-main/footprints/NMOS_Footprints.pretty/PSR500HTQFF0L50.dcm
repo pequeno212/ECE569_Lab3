@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSR500HTQFF0L50
+D 15x7.75 (5931) size, 10W, 0.5m, High Power Type Metal Plate Shunt Resistor (AEC-Q200 Qualified)
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/psr-e.pdf
+$ENDCMP
+#
+#End Doc Library

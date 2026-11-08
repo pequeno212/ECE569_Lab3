@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ESDA25P35-1U1M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-06-05:22:14)
+    (mountForm default
+        (footprintRef "ESDA25P351U1M")
+        (spec "System")
+    )
+)

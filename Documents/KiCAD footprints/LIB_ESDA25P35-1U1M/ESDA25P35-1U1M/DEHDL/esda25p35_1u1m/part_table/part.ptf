@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESDA25P35_1U1M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "ESDA25P35-1U1M" (!) = "", "ESDA25P351U1M", "Other", "511-ESDA25P35-1U1M", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDA25P35-1U1M?qs=aVyJF2WnouQUWqgNP85ZrA%3D%3D", "STMicroelectronics ESDA25P35-1U1M, Uni-Directional TVS Diode, 1400W, 2-Pin QFN", "https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf", "0.6 mm"
+END_PART
+
+END.

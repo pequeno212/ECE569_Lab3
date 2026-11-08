@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_642600"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-09-09:26:43)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ESDA25P35-1U1M")
+)
+
+
+(pinAssign "ECS_642600"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-09-09:26:43)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_642600")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ESDA25P35-1U1M")
+)
+
+
+(part "ESDA25P35-1U1M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-04-09-09:26:43)
+    (utime 2026-01-08-14:31:13)
+    (packageRef "ESDA25P35-1U1M")
+    (pinAssignRef "ECS_642600")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "STMicroelectronics ESDA25P35-1U1M, Uni-Directional TVS Diode, 1400W, 2-Pin QFN")
+    (property "Mouser_Part_Number" "511-ESDA25P35-1U1M")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ESDA25P35-1U1M?qs=aVyJF2WnouQUWqgNP85ZrA%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "ESDA25P35-1U1M")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf")
+    (property "compAreaTopHeight" 0.6)
+)
+
+

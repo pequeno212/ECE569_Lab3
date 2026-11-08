@@ -1,0 +1,1 @@
+function [state] = swch(D, t) 

@@ -1,0 +1,27 @@
+while t(k)< tend
+      
+    state = swch(duty,t(k));
+    nextstate = swch(duty, t(k+1)) %1 if next is on, 0 if next is off;
+    
+    vAC(k + 1) = (2 * nextstate - 1) * -vdc;
+    iAC(k + 1) = (iAC(k) + timestep * vAC(k+1)) / (1 + timestep * r / L);
+    
+    if (iAC(k+1) < 0)
+        id(k+1) = -iAC(k+1);
+    
+    else
+        iT(k+1) = iAC(k+1);
+    end
+
+    vt(k+1) = (vdc ) * (1 - nextstate);
+
+
+    
+
+    
+    %update time step (delta t)
+    t(k) = t(k) + timestep;
+    k = k + 1;
+
+
+end
